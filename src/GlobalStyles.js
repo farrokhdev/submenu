@@ -106,8 +106,8 @@ a{
 }
 
 .sub-show{
-  opacity: 1;
-  pointer-events: auto;
+  opacity: 1 !important;
+  pointer-events: auto !important;
 }
 
 
@@ -165,7 +165,7 @@ button{
 }
 
 .show{
-    display: flex;
+    display: flex !important;
 }
 }
 @media screen and (max-width: 500px) {
